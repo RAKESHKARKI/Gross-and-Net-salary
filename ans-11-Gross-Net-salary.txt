@@ -1,0 +1,23 @@
+package JavaTutorial;
+
+public class JavaTutorial_Gross_salary_with_ta_da_hra {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double sal= 85000;
+		float ta=15;
+		float da=20;
+		float hra=18;
+		float pf=20;
+		float tax=25;
+		
+		System.out.println("Gross salary with ta da and hra is:");
+		System.out.println((sal)*15/100+(sal)*20/100+(sal)*18/100+sal);
+		
+		System.out.println("Net salary after deducting pf and tax is:");
+		System.out.println(sal-(sal)*20/100-(sal)*25/100);
+		
+	}
+
+}
